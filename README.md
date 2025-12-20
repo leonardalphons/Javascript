@@ -7,13 +7,13 @@ This repository contains my Javascript Practice Codes...
 3. Functions
 4. DOM Manipulation
 5. Event Handling
-6. Build a Game(Mini-project: Rock, Paper and Scissors)
+6. Build a Toggle Button(togggles from Dark Mode to Light Mode and vice versa)
 
 ## Purpose
 
 This repo is a part of my learning journey in :
--> Web Development
--> Problrm Solving
--> Internships and Open-Source Contributions
+- Web Development
+- Problrm Solving
+- Internships and Open-Source Contributions
 
 I will keep updating this as I learn more ...
