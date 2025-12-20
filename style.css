@@ -1,11 +1,10 @@
-* {
-  background-color: rgb(64, 207, 95);
+
+.light {
+  background-color: white;
+  color : black;
 }
 
-.heading-class {
-  background-color: rgb(134, 199, 134);
-}
-
-button {
-  color: white;
+.dark {
+  background-color: black;
+  color : white;
 }
