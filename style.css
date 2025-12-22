@@ -1,10 +1,73 @@
-
-.light {
-  background-color: white;
-  color : black;
+* {
+  margin: 0;
+  padding: o;
+  text-align: center;
+  color: white;
 }
 
-.dark {
+body {
   background-color: black;
-  color : white;
+}
+
+h1 {
+  background-color: #081b31;
+  color: #fff;
+  height: 125px;
+  line-height: 125px;
+}
+
+.choice {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.choice:hover {
+  cursor: pointer;
+  background-color: #fff;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+#paper {
+  background-color: black;
+}
+
+.choices {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+  margin-top: 3rem;
+}
+
+.score-board {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2em;
+  margin-top: 3.2rem;
+  gap: 3rem;
+}
+
+#user-score,
+#comp-score {
+  font-size: 3rem;
+}
+
+.messg {
+  margin-top: 3rem;
+  font-size: 4rem;
+}
+
+#comp-score {
+  margin-top: 1rem;
 }
