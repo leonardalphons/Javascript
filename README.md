@@ -7,7 +7,8 @@ This repository contains my Javascript Practice Codes...
 3. Functions
 4. DOM Manipulation
 5. Event Handling
-6. Build a Toggle Button(togggles from Dark Mode to Light Mode and vice versa)
+6. Built a Toggle Button(togggles from Dark Mode to Light Mode and vice versa)
+7. Built a Rock, Paper and Stones game.
 
 ## Purpose
 
