@@ -13,7 +13,7 @@ This repository contains my Javascript Practice Codes...
 
 This repo is a part of my learning journey in :
 - Web Development
-- Problrm Solving
+- Problem Solving
 - Internships and Open-Source Contributions
 
 I will keep updating this as I learn more ...
