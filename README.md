@@ -10,6 +10,9 @@ This repository contains my JavaScript Practice Codes...
 6. Built a Toggle Button(toggles from Dark Mode to Light Mode and vice versa)
 7. Built a Rock, Paper and Scissors a game.
 8. Classes and Objects
+9. Error Handling
+10. Synchronous and Asynchronous Concept
+11. Callback
   
 
 ## Purpose
