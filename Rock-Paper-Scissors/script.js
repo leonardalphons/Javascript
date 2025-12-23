@@ -55,3 +55,4 @@ choices.forEach((choice) => {
     play(userChoice);
   });
 });
+
