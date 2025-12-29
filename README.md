@@ -17,6 +17,7 @@ This repository contains my JavaScript Practice Codes...
 13. Async-Await
 14. IIFE(Immediately Invoked Function Expression)
 15. Fetch API
+16. 
   
 
 ## Purpose
