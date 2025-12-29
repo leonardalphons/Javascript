@@ -12,7 +12,11 @@ This repository contains my JavaScript Practice Codes...
 8. Classes and Objects
 9. Error Handling
 10. Synchronous and Asynchronous Concept
-11. Callback
+11. Callback & Callback Hell
+12. Promises & Promise Chain
+13. Async-Await
+14. IIFE(Immediately Invoked Function Expression)
+15. Fetch API
   
 
 ## Purpose
