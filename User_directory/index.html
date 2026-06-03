@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>User Directory</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-black text-white min-h-screen p-8">
+    <!-- main Container -->
+    <div class="max-w-7xl mx-auto">
+      <!-- form -->
+      <div
+        class="w-[500px] mx-auto bg-zinc-900 border border-zinc-800 rounded-2xl p-8"
+      >
+        <h1 class="text-4xl font-bold text-center mb-8">Add User</h1>
+
+        <form class="space-y-6">
+          <div>
+            <label class="block mb-2 text-sm font-medium"> Name </label>
+
+            <input
+              type="text"
+              class="w-full bg-zinc-800 border border-zinc-700 rounded-lg px-4 py-3 outline-none focus:border-zinc-500"
+            />
+          </div>
+
+          <div>
+            <label class="block mb-2 text-sm font-medium"> Role </label>
+
+            <input
+              type="text"
+              class="w-full bg-zinc-800 border border-zinc-700 rounded-lg px-4 py-3 outline-none focus:border-zinc-500"
+            />
+          </div>
+
+          <div>
+            <label class="block mb-2 text-sm font-medium"> Bio </label>
+
+            <textarea
+              rows="4"
+              class="w-full bg-zinc-800 border border-zinc-700 rounded-lg px-4 py-3 resize-none outline-none focus:border-zinc-500"
+            ></textarea>
+          </div>
+
+          <div>
+            <label class="block mb-2 text-sm font-medium"> Photo URL </label>
+
+            <input
+              type="text"
+              class="w-full bg-zinc-800 border border-zinc-700 rounded-lg px-4 py-3 outline-none focus:border-zinc-500"
+            />
+          </div>
+
+          <button
+            type="submit"
+            class="w-full py-3 border border-zinc-700 rounded-lg font-semibold hover:bg-zinc-800 transition"
+          >
+            Submit
+          </button>
+        </form>
+      </div>
+
+      <!-- cards -->
+      <div class="mt-14 flex flex-wrap justify-center gap-10">
+        <!-- card -->
+        <div
+          class="w-[320px] bg-zinc-900 border border-zinc-800 rounded-2xl p-8 text-center"
+        >
+          <img
+            src="https://i.pravatar.cc/200?img=12"
+            alt=""
+            class="w-28 h-28 rounded-full mx-auto border-4 border-zinc-700 object-cover"
+          />
+
+          <h2 class="text-3xl font-bold mt-6">John Doe</h2>
+
+          <h4 class="text-lg text-zinc-300 mt-2">Frontend Developer</h4>
+
+          <p class="text-zinc-400 mt-4 leading-relaxed">
+            Loves building beautiful UIs and learning new technologies.
+          </p>
+        </div>
+
+        <!-- card -->
+        <div
+          class="w-[320px] bg-zinc-900 border border-zinc-800 rounded-2xl p-8 text-center"
+        >
+          <img
+            src="https://i.pravatar.cc/200?img=47"
+            alt=""
+            class="w-28 h-28 rounded-full mx-auto border-4 border-zinc-700 object-cover"
+          />
+
+          <h2 class="text-3xl font-bold mt-6">Jane Smith</h2>
+
+          <h4 class="text-lg text-zinc-300 mt-2">Backend Engineer</h4>
+
+          <p class="text-zinc-400 mt-4 leading-relaxed">
+            Enjoys solving complex problems and optimizing APIs.
+          </p>
+        </div>
+
+        <!-- card -->
+        <div
+          class="w-[320px] bg-zinc-900 border border-zinc-800 rounded-2xl p-8 text-center"
+        >
+          <img
+            src="https://i.pravatar.cc/200?img=67"
+            alt=""
+            class="w-28 h-28 rounded-full mx-auto border-4 border-zinc-700 object-cover"
+          />
+
+          <h2 class="text-3xl font-bold mt-6">Alex Lee</h2>
+
+          <h4 class="text-lg text-zinc-300 mt-2">UI/UX Designer</h4>
+
+          <p class="text-zinc-400 mt-4 leading-relaxed">
+            Passionate about user experience and clean design.
+          </p>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
